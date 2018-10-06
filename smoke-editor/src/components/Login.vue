@@ -26,7 +26,7 @@
           </column>
           <column is-8>
             <h1>
-             <img src="facebook_like_logo_1.jpg" alt="FacebookIcon" style="width:128px;height:128px;">
+             <img src="smoke/facebook_like_logo_1.jpg" alt="FacebookIcon" style="width:128px;height:128px;">
             </h1>
           </column>
         </columns>
