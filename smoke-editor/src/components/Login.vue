@@ -26,7 +26,7 @@
           </column>
           <column is-8>
             <h1>
-              TODO: Put social login buttons
+             <img src=""/satinderjamal/desktop/cs3250/facebook_like_logo_1.jpg" alt="FacebookIcon" style="width:128px;height:128px;">
             </h1>
           </column>
         </columns>
