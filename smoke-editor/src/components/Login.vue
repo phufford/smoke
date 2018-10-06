@@ -38,7 +38,7 @@
 <style>
 #main-login {
   padding: 20px;
-  border: 1px solid green;
+  border: 1px solid blue;
   border-radius: 4px;
 }
 </style>
