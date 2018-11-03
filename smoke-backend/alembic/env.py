@@ -7,11 +7,10 @@ from logging.config import fileConfig
 # access to the values within the .ini file in use.
 config = context.config
 
-# Set sqlalchemy.url with config.py files
-import configtest.py as config_url
+# ATTEMPTING TO UTILIZE THE URI'S PROVIDED IN THE CONFIG.PY FILES"
+# import config.py as sql_url
 
-
-config.set_main_option('sqlalchemy.url', config_url.get('SQLALCHEMY_DATABASE_URI'))
+# config.set_main_option('sqlalchemy.url', sql_url.get('SQLALCHEMY_DATABASE_URI'))
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
