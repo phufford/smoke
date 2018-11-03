@@ -7,6 +7,12 @@ from logging.config import fileConfig
 # access to the values within the .ini file in use.
 config = context.config
 
+# Set sqlalchemy.url with config.py files
+import configtest.py as config_url
+
+
+config.set_main_option('sqlalchemy.url', config_url.get('SQLALCHEMY_DATABASE_URI'))
+
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
 fileConfig(config.config_file_name)
@@ -21,7 +27,6 @@ target_metadata = None
 # can be acquired:
 # my_important_option = config.get_main_option("my_important_option")
 # ... etc.
-
 
 def run_migrations_offline():
     """Run migrations in 'offline' mode.
