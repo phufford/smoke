@@ -4,7 +4,7 @@ from flask_script import Manager
 from flask_migrate import Migrate, Migrate Command
 
 from app import app #import the app object from the app module
-from app import db 
+from app import db #import db from app (might need to be imported directly from .extensions)
 
 
 migrate = Migrate(app, db)
